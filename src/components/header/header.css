@@ -1,0 +1,166 @@
+header {
+  background: #fafafa;
+  padding-top: 6rem;
+}
+
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerInfo {
+  text-align: left;
+}
+
+.headerInfo > h1 span{
+  color: var(--primary);
+}
+
+.headerInfo p {
+  /* max-width: 50%; */
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.headerBtn {
+  gap: 15px;
+}
+
+.headerBtn a {
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 45px;
+  border-radius: 5px;
+  transition: var(--transition);
+  border: solid 1.3px transparent;
+}
+
+.headerBtn a:first-child {
+  background: var(--primary);
+  transition: var(--transition);
+}
+
+.headerBtn a:first-child:hover {
+  color: var(--primary);
+  background: transparent;
+  border: solid 1.3px var(--primary);
+}
+.headerBtn a:last-child {
+  gap: 10px;
+  border: solid 1.3px var(--primary);
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.headerBtn a:last-child:hover {
+  background: var(--primary);
+  border: solid 1.3px var(--primary);
+  color: #fff;
+  fill: #fff;
+}
+
+/* ///////////////////// */
+.headerContent{
+    /* width: 50%; */
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cardImage{
+  width: 500px;
+  /* height: 100px; */
+  object-fit: cover;
+}
+.cardImage > img{
+  width: 100%;
+}
+
+.stat {
+  width: 200px;
+  height: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(--shadow1);
+}
+
+.stat img:first-child{
+    position: absolute;
+    /* background: red; */
+}
+
+.stat img:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22%;
+    /* bottom: 50%; */
+    right: auto;
+    /* background: red; */
+    position: absolute;
+}
+
+.slider{
+    width: 200px;
+    box-shadow: var(--shadow1);
+    height: fit-content;
+    padding: 1rem;
+}
+
+.pie{
+ position: relative;
+}
+
+.pie h3{
+    position: absolute;
+    left: 43%;
+    bottom: 50%;
+}
+.pie img{
+    width: 85%;
+    /* box-shadow: var(--shadow1); */
+}
+
+.circle{
+    width: 200px;
+height: 303px;
+box-shadow: var(--shadow1);
+align-items: center;
+    justify-content: space-between;
+}
+
+.circle img{
+    width: 75%;
+    
+}
+
+@media screen and (max-width: 1218px) {
+  .headerInfo h1{
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 1258px) {
+  .headerContainer{
+    flex-direction: column;
+    
+  }
+
+  .headerInfo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+  }
+
+  .headerContent{padding: 2rem;}
+
+  .cardImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
