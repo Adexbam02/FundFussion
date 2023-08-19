@@ -1,0 +1,91 @@
+.featuresSection {
+  padding: 3rem 4rem;
+}
+
+.featuresContent {
+  /* gap: 1rem; */
+  padding: 0 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featuresInfo {
+  align-items: flex-start;
+  text-align: left;
+  /* max-width: 50%; */
+  padding: 1.3rem;
+}
+.featuresInfo h3 {
+  color: var(--primary);
+}
+
+.featuresInfo h2 {
+  color: var(--heading);
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.featuresInfo p {
+  max-width: 500px;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.featuresInfo a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.featuresComment {
+  background: url("../../assets/Spiral.png") no-repeat;
+  width: 322px;
+  height: 407px;
+  border-radius: 22.157px;
+  background: #b1e2f0;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  /* background: #78bccf; */
+}
+
+.featuresComment > div {
+  position: absolute;
+  align-items: flex-end;
+  bottom: 5%;
+  left: -20%;
+}
+
+.comment1 {
+  width: 90%;
+  position: absolute;
+}
+
+.comment1 {
+  top: -20%;
+}
+
+.comment2 {
+  width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .featuresContent {
+    flex-direction: column;
+    gap: 5rem;
+    /* padding: 0 0rem; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .featuresSection {
+    padding: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .featuresComment {
+    width: 300px;
+    height: 390px;
+  }
+}

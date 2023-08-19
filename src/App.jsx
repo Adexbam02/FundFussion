@@ -1,4 +1,4 @@
-import { Navbar, Header, Logowall } from "./components";
+import { Navbar, Header, Logowall, Features, Service } from "./components";
 import "./App.css";
 
 function App() {
@@ -7,6 +7,8 @@ function App() {
       <Navbar />
       <Header />
       <Logowall />
+      <Features />
+      <Service />
     </>
   );
 }

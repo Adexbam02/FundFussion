@@ -14,11 +14,13 @@ import Logo from "./Logo.png"
 import mastercard from "./mastercard.png"
 import PieChart1 from "./PieChart1.svg"
 import Play from "./Play.svg"
-import points from "./points.svg"
+import play2 from "./play2.svg"
+import point from "./point.svg"
 import Polygon1 from "./Polygon1.svg"
 import Polygon2 from "./Polygon2.svg"
 import Slider from "./Slider.svg"
 import Spiral from "./Spiral.png"
+import tick from "./tick.svg"
 import visa from "./visa.png"
 import waves from "./waves.svg"
 
@@ -39,11 +41,13 @@ export{
     mastercard,
     PieChart1,
     Play,
-    points,
+    play2,
+    point,
     Polygon1,
     Polygon2,
     Slider,
     Spiral,
+    tick,
     visa,
     waves
 }
