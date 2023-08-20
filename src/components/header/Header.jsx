@@ -3,10 +3,12 @@ import { header, Play } from "../../assets";
 
 const Header = () => {
   return (
-    <header>
-      <div className="headerContainer max   ">
+    <header className="max">
+      <div className="headerContainer ">
         <div className="headerInfo flexcl font2 gap1">
-          <h3 className="logoCl">Fund<span className="logoSec">Fussion</span></h3>
+          <h3 className="logoCl">
+            Fund<span className="logoSec">Fussion</span>
+          </h3>
           <h1 className="font1">
             THE NEXT <br /> GENERATION OF
             <br /> <span>PAYMENT METHOD</span>
@@ -25,10 +27,8 @@ const Header = () => {
         </div>
 
         <div className="headerContent">
-         
           <div className="cardImage">
-          <img src={header} alt="" />
-
+            <img src={header} alt="" />
           </div>
         </div>
       </div>

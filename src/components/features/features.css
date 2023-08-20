@@ -69,6 +69,8 @@
   width: 70%;
 }
 
+.BarPie{}
+
 @media screen and (max-width: 1200px) {
   .featuresContent {
     flex-direction: column;
@@ -87,5 +89,10 @@
   .featuresComment {
     width: 300px;
     height: 390px;
+  }
+
+  .featuresComment > div {
+    align-items:center;
+    flex-direction: column-reverse;
   }
 }

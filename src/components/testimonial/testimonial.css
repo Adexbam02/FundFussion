@@ -1,0 +1,6 @@
+.testimonialCard {
+  padding: 3rem 5rem;
+  background: var(--primary);
+  border-radius: 15px;
+  opacity: 0.4;
+}

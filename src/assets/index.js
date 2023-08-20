@@ -2,6 +2,7 @@ import BarPie from "./BarPie.svg"
 import circle from "./circle.svg"
 import comment1 from "./comment1.png"
 import comment2 from "./comment2.png"
+import FundFussionCard from "./FundFussionCard.png"
 import happyStaff from "./happyStaff.jpg"
 import happyStaff2 from "./happyStaff2.png"
 import happyStaff3 from "./happyStaff3.png"
@@ -29,6 +30,7 @@ export{
     circle,
     comment1,
     comment2,
+    FundFussionCard,
     happyStaff,
     happyStaff2,
     happyStaff3,

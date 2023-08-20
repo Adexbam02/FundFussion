@@ -3,6 +3,7 @@ header {
   padding-top: 6rem;
 }
 
+
 .headerContainer{
   display: flex;
   align-items: center;
@@ -74,68 +75,14 @@ header {
   object-fit: cover;
 }
 .cardImage > img{
-  width: 100%;
+  max-width: 90%; /* Limit the image width to its container's width */
+  height: auto;    /* Maintain the image's aspect ratio */
+  display: block;  /* Remove extra space below the image */
+  margin: 0 auto;  /* Center the image horizontally */
 }
 
-.stat {
-  width: 200px;
-  height: 201px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  box-shadow: var(--shadow1);
-}
 
-.stat img:first-child{
-    position: absolute;
-    /* background: red; */
-}
 
-.stat img:last-child{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 22%;
-    /* bottom: 50%; */
-    right: auto;
-    /* background: red; */
-    position: absolute;
-}
-
-.slider{
-    width: 200px;
-    box-shadow: var(--shadow1);
-    height: fit-content;
-    padding: 1rem;
-}
-
-.pie{
- position: relative;
-}
-
-.pie h3{
-    position: absolute;
-    left: 43%;
-    bottom: 50%;
-}
-.pie img{
-    width: 85%;
-    /* box-shadow: var(--shadow1); */
-}
-
-.circle{
-    width: 200px;
-height: 303px;
-box-shadow: var(--shadow1);
-align-items: center;
-    justify-content: space-between;
-}
-
-.circle img{
-    width: 75%;
-    
-}
 
 @media screen and (max-width: 1218px) {
   .headerInfo h1{

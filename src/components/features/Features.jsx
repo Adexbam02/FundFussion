@@ -3,7 +3,7 @@ import { comment1, comment2, BarPie } from "../../assets/index";
 
 const Features = () => {
   return (
-    <section className="featuresSection ">
+    <section className="featuresSection sectionP">
       <div className="featuresContent flex">
         <div className="featuresInfo flexcl gap1 font2">
           <h3>FEATURES</h3>

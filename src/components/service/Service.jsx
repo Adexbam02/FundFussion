@@ -1,10 +1,10 @@
 import "./service.css";
-import { play2, happyStaff, tick, point } from "../../assets/index";
+import { play2, happyStaff, tick, point, FundFussionCard } from "../../assets/index";
 const Service = () => {
   return (
     <section>
-      <div className="serviceContent gap2  sectionP">
-        <div className="servicecard1 flex1 gap2">
+      <div className="serviceContent flexcl sectionP">
+        <div className="servicecard1  flex1 gap2">
           <div className="serviceImg">
             <div>
               <p>WATCH VIDEO</p>
@@ -15,7 +15,7 @@ const Service = () => {
           </div>
 
           <div className="serviceInfo gap1 flexCl">
-            <h3>FEATURES</h3>
+            <h3>SERVICE</h3>
 
             <h2>
               Easily Control your Billing <br /> and Invoicing.
@@ -48,15 +48,13 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="servicecard1 flex1 gap2">
+        <div className="servicecard1 service2 flex1 gap2">
           <div className="serviceInfo gap1 flexCl">
-            <h3>FEATURES</h3>
-
             <h2>Find a Better card Deal in few Easy Steps..</h2>
 
-            <div>
+            <div className="service flexcl gap2">
               <div className="servicePoint">
-                <div className="">
+                <div className="flex gap1">
                   <img src={point} alt="" />
                   <h4>For Innovation team</h4>
                 </div>
@@ -68,7 +66,7 @@ const Service = () => {
                 </p>
               </div>
               <div className="servicePoint">
-                <div className="">
+                <div className="flex gap1">
                   <img src={point} alt="" />
                   <h4>For Consultancies</h4>
                 </div>
@@ -82,13 +80,8 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="serviceImg">
-            <div>
-              <p>WATCH VIDEO</p>
-              <img src={play2} alt="" />
-            </div>
-
-            <img src={happyStaff} alt="" />
+          <div className="FundFussionCard">
+            <img src={FundFussionCard} alt="" />
           </div>
         </div>
       </div>

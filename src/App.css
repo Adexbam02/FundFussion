@@ -21,6 +21,18 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1000px) {
+  .sectionP{
+    padding: 3rem 2rem;
+  }
+
+  .max{
+    /* max-width: 90%; */
+    /* margin: 0 auto; */
+  }
+}
+
+
 .flex{display: flex;}
 
 .flex1{
